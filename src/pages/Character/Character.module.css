@@ -1,0 +1,105 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .backButton {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .backButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .characterCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 768px) {
+    .characterCard {
+      flex-direction: row;
+    }
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .image {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  .details {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .name {
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .infoSection {
+    margin-bottom: 20px;
+  }
+  
+  .infoSection h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .infoSection p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .infoSection span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .episodes {
+    margin-top: 30px;
+  }
+  
+  .episodes h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .episodeList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .episode {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
