@@ -10,9 +10,8 @@ SPA приложение с карточками персонажей Rick and M
 - Vite
 
 ## Установка
-\`\`\`bash
+bash
 npm install
 npm run dev
-\`\`\`
 
 
